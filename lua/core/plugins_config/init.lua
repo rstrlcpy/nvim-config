@@ -8,6 +8,7 @@ require("core.plugins_config.lsp_lines")
 --require("core.plugins_config.go")
 require("core.plugins_config.copilot")
 require("core.plugins_config.indent-blankline")
+require("core.plugins_config.autoclose")
 
 local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
 for type, icon in pairs(signs) do
